@@ -3,7 +3,7 @@
 Hogwarts student records is a RESTful API that allows performing CRUD operations for young witches and wizards. 
 Uses MongoDb as persistence layer.
 
-###Installation
+# Installation
 ```sh
 $ git clone https://github.com/anantsinha/hogwarts_students.git
 $ npm install
