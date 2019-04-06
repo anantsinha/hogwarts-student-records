@@ -7,7 +7,7 @@ const bodyParser = require("body-parser");
 
 server.use(bodyParser.urlencoded({ extended: false }));
 server.use(bodyParser.json());
-const db_uri = "mongodb+srv://anant:218374218374@cluster0-wded1.mongodb.net/test?retryWrites=true"; //my db
+const db_uri = "mongodb+srv://anant:<password>@cluster0-wded1.mongodb.net/test?retryWrites=true"; //my db
 let client;
 let db;
 

@@ -5,7 +5,7 @@ var MongoClient = require('mongodb').MongoClient;
 chai.use(chaiHttp);
 const expect = chai.expect;
 
-const db_uri = "mongodb+srv://anant:218374218374@cluster0-wded1.mongodb.net/test?retryWrites=true"; //my db
+const db_uri = "mongodb+srv://anant:<password>@cluster0-wded1.mongodb.net/test?retryWrites=true"; //my db
 let client;
 let db;
 let students;
