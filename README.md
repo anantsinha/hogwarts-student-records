@@ -22,7 +22,7 @@ $ npm start
 | ------ | ------ | --------|
 | GET | /| An intro/welcome message|
 | GET | /students | If body is empty, returns list of all students. Else returns students that match the criteria|
-| POST | students/update | Updates a student's information.|
+| POST | /students/update | Updates a student's information.|
 | POST | /students/newstudent | Creates a new student record (document)|
 | POST | /students/delete | Delets the record (document) of a student|
 
